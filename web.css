@@ -1,0 +1,176 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: Montserrat;
+   
+}
+.background-content{
+    background-color: #045887;   
+    
+    
+}
+.vave{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+@media(max-width:991px){
+  .vave{
+    display: none;
+  }
+  
+}
+/* .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #008CBA;
+    transition: .5s ease;
+    border-radius: 10px;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+ 
+ */
+ 
+ .service{
+    font-size: 50px;
+    color: #045887;
+ }
+ /* ---------------------- */
+ .card {
+    position: relative;
+    
+  }
+  
+  
+  .overlay-layout {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+    
+  }
+  
+  .card:hover .overlay-layout {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    
+
+   text-align: justify;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+   
+  }
+  .exp{
+    text-align: justify;
+  }
+  
+ /* ------------------------------ */
+ 
+ /* ---------------------------------- */
+ .img-hover{
+  width: auto;
+ }
+ .img-hover:hover{
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+}
+.banner-content {
+  margin: 150px 50px 50px 50px;
+  text-align: justify;
+  
+  color: white;
+  
+    
+}
+.banner-content h1{
+    font-weight: bold;
+}
+.head-content {
+    border: 1px solid rgb(201, 198, 198);
+    border-radius: 10px;
+    width: 31%;
+    box-shadow: 0px 10px 12px 1px rgb(236, 234, 234);
+font-size: 50px;
+}
+.head-content:hover {
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+    box-shadow: 0 22px 43px rgba(0, 0, 0, 0.32);
+    cursor: pointer;
+    border-radius: 20px;
+}
+.btn{
+    width: 200px;
+    padding: 10px;
+    font-weight: bold;
+    color:#fafbfc;
+    background-color:#045887;
+    
+}
+.play-buttn{
+    font-size: 30px;
+    color:#045887;
+   
+}
+.text-primary{
+    color: #045887;
+}
+.watch-now-btn{
+    color: #045887;
+}
+
+/* ------------------------------- */
+@media (min-width: 410px) {
+  .section{
+    margin-top: 60px;
+    
+  }
+  .wave{
+   padding-bottom: 80%;
+  }
+  .cunsult{
+    text-align: justify;
+  }
+.card{
+  margin-top: 10px;
+}
+
+}
+
